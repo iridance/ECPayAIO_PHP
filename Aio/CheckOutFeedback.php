@@ -2,7 +2,7 @@
 
 namespace Ecpay\Aio;
 
-class CheckOutFeedback extends Common
+class CheckOutFeedback extends BaseAio
 {
     public static function CheckOut($arParameters = [], $HashKey = '', $HashIV = '')
     {

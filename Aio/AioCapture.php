@@ -2,7 +2,7 @@
 
 namespace Ecpay\Aio;
 
-class AioCapture extends Common
+class AioCapture extends BaseAio
 {
     public static function Capture($arParameters = [], $HashKey = '', $HashIV = '', $ServiceURL = '')
     {

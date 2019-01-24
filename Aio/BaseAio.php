@@ -5,7 +5,7 @@ namespace Ecpay\Aio;
 /**
  * 抽象類
  */
-abstract class Common
+abstract class BaseAio
 {
     protected static function ServerPost($parameters, $ServiceURL)
     {

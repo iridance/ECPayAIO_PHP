@@ -2,7 +2,7 @@
 
 namespace Ecpay\Aio;
 
-class TradeNoAio extends Common
+class TradeNoAio extends BaseAio
 {
     public static function CheckOut($target = "_self", $arParameters = [], $HashKey = '', $HashIV = '', $ServiceURL = '')
     {

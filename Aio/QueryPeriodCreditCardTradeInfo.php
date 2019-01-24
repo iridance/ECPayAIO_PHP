@@ -2,7 +2,7 @@
 
 namespace Ecpay\Aio;
 
-class QueryPeriodCreditCardTradeInfo extends Common
+class QueryPeriodCreditCardTradeInfo extends BaseAio
 {
     public static function CheckOut($arParameters = [], $HashKey = '', $HashIV = '', $ServiceURL = '')
     {

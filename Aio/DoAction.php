@@ -2,7 +2,7 @@
 
 namespace Ecpay\Aio;
 
-class DoAction extends Common
+class DoAction extends BaseAio
 {
     public static function CheckOut($arParameters = [], $HashKey = '', $HashIV = '', $ServiceURL = '')
     {

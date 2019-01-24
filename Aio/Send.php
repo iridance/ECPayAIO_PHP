@@ -5,7 +5,7 @@ namespace Ecpay\Aio;
 /**
  *  產生訂單
  */
-class Send extends Common
+class Send extends BaseAio
 {
     //付款方式物件
     public static $PaymentObj;

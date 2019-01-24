@@ -2,7 +2,7 @@
 
 namespace Ecpay\Aio;
 
-class QueryTrade extends Common
+class QueryTrade extends BaseAio
 {
     public static function CheckOut($arParameters = [], $HashKey = '', $HashIV = '', $ServiceURL = '')
     {

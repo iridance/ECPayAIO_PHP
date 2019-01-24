@@ -2,7 +2,7 @@
 
 namespace Ecpay\Aio;
 
-class FundingReconDetail extends Common
+class FundingReconDetail extends BaseAio
 {
     public static function CheckOut($target = "_self", $arParameters = [], $HashKey = '', $HashIV = '', $ServiceURL = '')
     {
