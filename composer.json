@@ -1,0 +1,26 @@
+{
+    "name": "irice/ecpay",
+    "description": "Ecpay composer version",
+    "keywords": ["ecpay"],
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "irice",
+            "email": "irice@open-life.com"
+        },
+        {
+            "name": "irice",
+            "email": "sgetaplus@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Ecpay\\": ""
+        }
+    }
+}
