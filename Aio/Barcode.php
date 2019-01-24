@@ -5,7 +5,7 @@ namespace Ecpay\Aio;
 /**
  * 付款方式 : BARCODE
  */
-class Barcode extends Verification
+class BARCODE extends Verification
 {
     public $arPayMentExtend = [
         'Desc_1'            => '',
