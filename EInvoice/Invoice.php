@@ -1729,7 +1729,7 @@ class Invoice
             // 資料排序
             // php 5.3以下不支援
             // ksort($arParameters, SORT_NATURAL | SORT_FLAG_CASE);
-            uksort($arParameters, ['EcpayInvoice', 'merchantSort']);
+            uksort($arParameters, ['Invoice', 'merchantSort']);
 
             // 開始組合字串
             $sMacValue = 'HashKey=' . $this->HashKey;
