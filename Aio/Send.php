@@ -13,7 +13,7 @@ class Send extends BaseAio
     protected static function process($arParameters = [], $arExtend = [])
     {
         //宣告付款方式物件
-        $PaymentMethod = $arParameters['ChoosePayment'];
+        $PaymentMethod = __NAMESPACE__ . '\\' . $arParameters['ChoosePayment'];
 
         self::$PaymentObj = new $PaymentMethod;
 
