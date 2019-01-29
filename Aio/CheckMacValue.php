@@ -14,7 +14,7 @@ class CheckMacValue
 
         if (isset($arParameters)) {
             unset($arParameters['CheckMacValue']);
-            uksort($arParameters, ['CheckMacValue', 'merchantSort']);
+            uksort($arParameters, [(new CheckMacValue), 'merchantSort']);
 
             // 組合字串
             $sMacValue = 'HashKey=' . $HashKey;
