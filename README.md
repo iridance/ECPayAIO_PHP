@@ -13,9 +13,11 @@ Sample
 use Ecpay\Aio\AllInOne;
 
 $payment = new AllInOne;
+
 ...
+
 ...
-...
+
 $payment->CheckOut();
 
 未完成
