@@ -10,7 +10,7 @@ abstract class PaymentMethod
     /**
      * 不指定付款方式。
      */
-    const ALL = 'ALL';
+    const ALL = 'AllPay';
 
     /**
      * 信用卡付費。
