@@ -10,7 +10,13 @@ php composer.phar require mdmsoft/yii2-admin:dev-master
 
 Sample
 ------------
-待補…
+use Ecpay\Aio\AllInOne;
+
+$payment = new AllInOne;
+...
+...
+...
+$payment->CheckOut();
 
 未完成
 ------------
